@@ -1,0 +1,12 @@
+.my-list {
+    display: inline-block;
+    border: solid black 2px;
+    background: #f7f381;
+    box-shadow: 0 0 10px 2px #333333;
+    padding: 8px 24px;
+    width: 500px;
+}
+
+.center {
+    text-align: center;
+}

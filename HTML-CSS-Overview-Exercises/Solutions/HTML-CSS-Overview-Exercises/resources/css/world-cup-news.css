@@ -1,0 +1,28 @@
+#wrapper {
+    width: 700px;
+    height: 730px;
+    border: solid black 1px;
+    margin-left: 280px;
+    padding: 10px;
+    background-color: #a6e1ec;
+}
+
+ul li {
+    list-style: none;
+    width: 600px;
+    padding: 10px;
+    border: solid black 1px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+ul li img {
+    width: 200px;
+    height: 100px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.text {
+    color: #2EA620;
+}

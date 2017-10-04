@@ -1,0 +1,15 @@
+p {
+    font-size: 18px;
+}
+
+#wrapper {
+    border: solid black 1px;
+    background-color: #dddddd;
+    width: 400px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.center {
+    text-align: center;
+}
