@@ -1,0 +1,39 @@
+* {
+    margin: auto;
+}
+
+body {
+    width: 890px;
+    margin: auto;
+    font-family: 'Calibri Light', 'Verdana', sans-serif;
+}
+
+main {
+    margin: 70px auto;
+    border: solid 1px #a5b2b3;
+    padding: 5px;
+}
+
+section {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+section h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+section p {
+    padding-top: 10px;
+}
+
+img {
+    width: 200px;
+}
+
+figure img:hover {
+    opacity: 0.4;
+}

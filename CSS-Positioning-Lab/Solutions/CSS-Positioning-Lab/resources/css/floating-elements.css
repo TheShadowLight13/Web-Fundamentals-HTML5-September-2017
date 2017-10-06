@@ -1,0 +1,33 @@
+main {
+    width: 600px;
+    margin: auto;
+    text-align: justify;
+}
+
+article {
+    width: 400px;
+    margin: 10px;
+}
+
+div {
+    background-color: #6495ed;
+    border: solid 1px #6495ed;
+    border-radius: 3px;
+    width: 120px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.left {
+    margin-right: 10px;
+    float: left;
+}
+
+.right {
+    margin-left: 10px;
+    float: right;
+}
+
+.center {
+    margin: auto;
+}

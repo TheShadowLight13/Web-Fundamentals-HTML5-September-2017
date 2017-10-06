@@ -1,0 +1,58 @@
+header {
+    border: solid 3px #000;
+    line-height: 80px;
+    padding: 30px;
+    font-size: 20px;
+    background-color: #8B603D;
+}
+
+h1 {
+    color: #fff;
+}
+
+main {
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.nav {
+    float: left;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav li {
+    background-color: #33B5E5;
+    margin: 10px;
+    padding: 10px 100px 10px 10px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+article {
+    padding: 10px;
+    width: 900px;
+}
+
+article h2 {
+    font-size: 30px;
+}
+
+article p {
+    font-size: 20px;
+}
+
+footer {
+    border: solid 3px #000;
+    margin-top: 55px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #8B603D;
+}
