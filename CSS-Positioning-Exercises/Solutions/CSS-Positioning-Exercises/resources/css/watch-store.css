@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Lemon-Regular';
+    src: url(../fonts/Lemon-Regular.ttf);
+}
+
+body {
+    font-family: 'Lemon-Regular', 'Arial', serif;
+    background-color: #5F2056;
+}
+
+header {
+   padding-top: 10px;
+}
+
+header h1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+}
+
+section {
+    width: 900px;
+    margin: 40px auto;
+    background-color: #FFAE32;
+    text-align: center;
+    border-radius: 30px;
+}
+
+article {
+    width: 220px;
+    height: 420px;
+    margin: 20px;
+    background-color: #5F2056;
+    display: inline-block;
+    vertical-align: top;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 0 0 10px 8px #826B73;
+}
+
+.title {
+    padding-top: 5px;
+    color: #fff;
+}
+
+.subtitle {
+    color: #FFAE32;
+    padding-bottom: 5px;
+}
+
+.info {
+    padding: 10px 5px 0 15px;
+    text-align: left;
+    color: #fff;
+    font-size: 15px;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 50px;
+    margin-top: 15px;
+    color: #9144FF;
+    font-family: 'Lemon-Regular', serif;
+    font-style: italic;
+    font-size: 15px;
+}

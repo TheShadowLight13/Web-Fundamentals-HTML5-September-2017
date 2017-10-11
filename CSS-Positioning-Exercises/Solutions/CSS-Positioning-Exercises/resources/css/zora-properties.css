@@ -1,0 +1,184 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+aside {
+    width: 280px;
+    font-family: 'Comfortaa', sans-serif;
+    float: left;
+}
+
+aside header {
+    font-size: 30px;
+    text-align: center;
+}
+
+.nav li.nav-item {
+    list-style: none;
+    padding: 10px 15px 25px 0;
+}
+
+.nav li.nav-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #b1bfc6;
+    text-align: left;
+}
+
+.nav li.nav-item:hover {
+    cursor: pointer;
+}
+
+.nav li.nav-item:hover a {
+    color: #333;
+}
+
+aside figure {
+    width: 100px;
+    margin: auto;
+}
+
+figcaption p {
+    text-transform: uppercase;
+    color: #b1bfc6;
+}
+
+aside img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+main {
+    background-color: rgba(177, 191, 198, 0.3);
+    width: 960px;
+    float: right;
+    padding: 10px;
+}
+
+main > header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+main > header span {
+    color: #91a5af;
+}
+
+main > header button {
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border: solid 3px #ff7739;
+    border-radius: 20px;
+    background-color: #ff7739;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+main > header button:hover {
+    border: solid 3px #ff7739;
+    background: none;
+    color: #ff7739;
+}
+
+main > header button:hover .fa.fa-angle-down {
+    color: #ff7739;
+}
+
+.fa.fa-angle-down {
+    color: #fff;
+}
+
+section {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+}
+
+section > header h3 {
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+section > header p {
+    text-transform: uppercase;
+}
+
+section > header h3,  section > header p{
+    margin-left: 10px;
+}
+
+article {
+    width: 250px;
+    height: 300px;
+    background-color: #fff;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 8px 6px 17px -1px rgba(0, 0, 0, 0.26);
+    position: relative;
+}
+
+.fade p {
+    color: #b1bfc6;
+}
+
+.fade img {
+    opacity: 0.6;
+}
+
+article figure {
+    width: 250px;
+    margin: auto;
+}
+
+article figcaption p {
+    text-transform: capitalize;
+    color: #333;
+}
+
+article img {
+    margin-top: 60px;
+    width: 250px;
+}
+
+article figcaption {
+    margin-left: 20px;
+}
+
+article button {
+    top: 80px;
+    left: -15px;
+    position: absolute;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    padding: 7px 10px;
+    width: 90px;
+    color: #fff;
+}
+
+.rented {
+   background-color: #b1bfc6;;
+}
+
+.listed {
+    background-color: #68BB61;;
+}
+
+.draft {
+    background-color: #91a5af;
+}
+
+
+
+
+
