@@ -1,0 +1,49 @@
+@media screen and (max-width: 740px) {
+    #photo {
+        text-align: center;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 4.5em;
+    }
+
+    h3 {
+        font-size: 2.2em;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    #info {
+        float: none;
+        text-align: center;
+    }
+
+    #wrapper {
+        padding: 20px 15px;
+    }
+
+    p {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    ul li {
+        display: inline-block;
+        width: 100px;
+    }
+
+    #skills-right ul li:nth-of-type(2) {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    ul li {
+        padding-left: 16px;
+        background: url(../images/bullet.png) -3px 5px no-repeat;
+    }
+}
